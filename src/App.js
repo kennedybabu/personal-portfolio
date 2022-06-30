@@ -1,9 +1,9 @@
 import Nav from "./components/Nav";
-// import About from "./pages/About";
+import About from "./pages/About";
 // import Contact from "./pages/Contact";
 // import Footer from "./pages/Footer";
 import Hero from "./pages/Hero";
-// import Projects from "./pages/Projects";
+import Projects from "./pages/Projects";
 
 
 function App() {
@@ -11,8 +11,8 @@ function App() {
     <div >
       <Nav />
       <Hero />
-      {/* <About /> */}
-      {/* <Projects /> */}
+      <About />
+      <Projects />
       {/* <Contact /> */}
       {/* <Footer /> */}
     </div>
