@@ -10,7 +10,7 @@ import Sneakers  from '../assets/sneakers.png'
 const Projects = () => {
 
   return (
-    <div className='relative w-full h-[80vh] lg:h-screen flex items-center justify-center flex-col' name='projects'>
+    <div className='relative w-full h-full lg:h-screen flex items-center justify-center flex-col' name='projects'>
         <p className='my-8 md:my-0 md:absolute left-[100px] md:left-8 lg:left-[200px] top-[50px] text-3xl border-b-2 border-[#E63946] text-[#c5deee]'>some of my projects</p>
         <div className='grid md:grid-cols-2 px-8 lg:px-[200px] gap-[2rem] h-full'>
             <div className='projects-container'>
