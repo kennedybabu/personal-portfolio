@@ -35,10 +35,10 @@ const Nav = () => {
             {/* mobile menu */}
             <div className={!nav ? 'hidden' : 'flex w-[60%] pt-[100px] right-0 top-0 h-screen bg-[#ffffff54] backdrop-blur justify-center items-center fixed md:hidden z-[1000]'}>
                 <ul className='flex text-black flex-col w-full h-full items-start pl-6'>
-                    <li className='m-4'>Home</li>
-                    <li className='m-4'>About</li>
-                    <li className='m-4'>Projects</li>
-                    <li className='m-4'>Contact</li>
+                    <Link to='hero' smooth={true}><li className='m-4'>Home</li></Link>
+                    <Link to='about' smooth={true}><li className='m-4'>About</li></Link>
+                    <Link to='projects' smooth={true}><li className='m-4'>Projects</li></Link>
+                    <Link to='contact' smooth={true}><li className='m-4'>Contact</li></Link>
                 </ul>
             </div>
         </div>
