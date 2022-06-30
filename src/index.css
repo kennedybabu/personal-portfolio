@@ -1,3 +1,85 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100;200;300;400;500;600;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Urbanist', sans-serif;
+    background-color: #003049;
+}
+
+
+.projects-container {
+    --row-height: 300px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: auto;
+    gap: 1rem;
+}
+
+
+.projects-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+.span-2 {
+    grid-column: span 2;
+}
+
+
+@media screen and (max-width: 940px) {
+    .projects-container {
+        grid-template-columns: 1fr;
+        --row-height: 200px;
+    }
+
+    .span-2 {
+        grid-column: span 1;
+    }
+}
+
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom right, #003049, transparent);
+    z-index: 100;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    /* display: hidden; */
+}
+
+
+.project-tile {
+    cursor: pointer;
+}
+
+
+.project-tile:hover > .overlay {
+    display: flex;
+   
+}
+
+
+input:active,
+input:focus,
+textarea:active,
+textarea:focus {
+    outline: none;
+}
