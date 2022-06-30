@@ -20,8 +20,8 @@ const About = () => {
         {/* container */}
         <div className='w-full h-full flex flex-col items-center justify-center'>   
             <motion.div variants={MyContainer} initial='BeforeFade' animate='AfterFade' className='text-[#F1FAEE]  px-4 md:px-[100px] w-full lg:px-[200px]'>
-                <p className='underline py-4 tracking-wide underline-offset-4 text-2xl'>About</p>
-                <p className='lg:max-w-[800px] md:text-xl'>I'm Kennedy Babu, a Nairobi based fullstack developer.
+                <p className='tracking-wide  text-2xl border-b-2 border-[#E63946] inline'>About</p>
+                <p className='lg:max-w-[800px] md:text-xl mt-6'>I'm Kennedy Babu, a Nairobi based fullstack developer.
                     I have a diverse range of skills ranging from design to HTML, 
                     CSS, all the way to React and MySQL. I have knowledge in the life cycle of development, starting from design to deployment.
                 </p>

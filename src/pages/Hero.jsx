@@ -26,8 +26,8 @@ const Hero = () => {
             }}
             className='px-4 md:px-[100px] lg:px-[200px] md:items-start w-full'>
               <p className='text-[#E63946] text-xl'>hello, my name is</p>
-              <h2 className='text-3xl text-bold tracking-wider text-[#c5deee]'>Kennedy Babu</h2>
-              <h1 className='text-5xl  text-[#A8DADC]'>I'm a fullstack Developer.</h1>
+              <h2 className='text-2xl md:text-3xl text-bold tracking-wider text-[#c5deee]'>Kennedy Babu</h2>
+              <h1 className='text-3xl md:text-5xl  text-[#A8DADC]'>I'm a fullstack Developer.</h1>
               <p className='text-xl py-4 md:max-w-[800px]'>
                 I'm a web developer with an art and design background, keen on details and enhancing the user experience.
               </p>
